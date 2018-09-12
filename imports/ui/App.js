@@ -1,8 +1,12 @@
 import React from "react";
+import PrivateHeader from './PrivateHeader';
 
 const App = () => (
   <div>
-    Logged In
+    <PrivateHeader title="Dashboard" />
+    <div className="wrapper">
+      Dashboard
+    </div>
   </div>
 );
 

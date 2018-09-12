@@ -14,4 +14,10 @@
   &:hover::after {
       width: 100%;
   }
+
+  &.header--link {
+    &::after {
+      background: $header-col;
+    }
+  }
 }

@@ -27,7 +27,7 @@ class SignUp extends Component {
     return (
       <div className="boxed-view">
         <div className="boxed-view__box">
-          <h1>Meteor Boilerplate</h1>
+          <h1>Sign Up</h1>
           {this.state.error && <p className="error">{this.state.error}</p>}
           <form onSubmit={this.onSubmit} className="boxed-view__form">
             <input type="email" name="email" placeholder="Email" autoComplete="email" />
